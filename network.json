@@ -104,6 +104,16 @@
             ],
             "source": "plot.R",
             "target": "Area.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapc2",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "population.png"
         }
     ],
     "nodes": [
@@ -165,6 +175,6 @@
             "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-18 21:26:47",
+    "updated_at": "2018-10-18 21:26:59",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
