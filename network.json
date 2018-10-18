@@ -5,26 +5,6 @@
     "created_at": "2018-10-18 17:13:10",
     "edges": [
         {
-            "ports": [
-                {
-                    "input": "raw_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "scprc_est_2017_18_pop_res.csv",
-            "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
             "ports": [],
             "source": "scprc_est_2017_18_pop_res.csv",
             "target": "census.R"
@@ -33,9 +13,6 @@
     "nodes": [
         {
             "name": "scprc_est_2017_18_pop_res.csv"
-        },
-        {
-            "name": "clean.R"
         },
         {
             "name": "data.csv"
@@ -47,6 +24,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 17:19:17",
+    "updated_at": "2018-10-18 17:19:29",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
