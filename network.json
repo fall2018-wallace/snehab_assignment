@@ -52,6 +52,17 @@
             ],
             "source": "areadata.R",
             "target": "mergecenter.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedf",
+                    "output": "mergedf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "mergecenter.R",
+            "target": "plot.R"
         }
     ],
     "nodes": [
@@ -89,10 +100,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "srbinani",
             "desc": "",
-            "name": "plot.R"
+            "name": "plot.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 17:40:52",
+    "updated_at": "2018-10-18 17:41:45",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
