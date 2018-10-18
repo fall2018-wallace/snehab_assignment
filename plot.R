@@ -1,6 +1,6 @@
 
 library(ggplot2)
-library(gmap)
+library(ggmap)
 library(maps)
 
 # Step B: Generate a color coded map
