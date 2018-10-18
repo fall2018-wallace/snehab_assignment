@@ -30,6 +30,17 @@
             ],
             "source": "census.R",
             "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "mergecenter.R"
         }
     ],
     "nodes": [
@@ -55,10 +66,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "srbinani",
             "desc": "",
-            "name": "mergecenter.R"
+            "name": "mergecenter.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 17:28:27",
+    "updated_at": "2018-10-18 17:29:33",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
