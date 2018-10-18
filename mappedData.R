@@ -1,5 +1,5 @@
 
 library(maps)
-library(ggmaps)
+library(ggmap)
 mappedData <- map_data("state")
 mappedData
