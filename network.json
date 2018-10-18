@@ -94,6 +94,16 @@
             ],
             "source": "plot.R",
             "target": "MurderRate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapc",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "Area.png"
         }
     ],
     "nodes": [
@@ -152,6 +162,6 @@
             "name": "Area.png"
         }
     ],
-    "updated_at": "2018-10-18 21:20:32",
+    "updated_at": "2018-10-18 21:20:42",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
