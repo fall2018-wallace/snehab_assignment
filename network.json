@@ -84,6 +84,16 @@
             ],
             "source": "plot.R",
             "target": "ZoomMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapc1",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "MurderRate.png"
         }
     ],
     "nodes": [
@@ -139,6 +149,6 @@
             "name": "MurderRate.png"
         }
     ],
-    "updated_at": "2018-10-18 21:19:56",
+    "updated_at": "2018-10-18 21:20:09",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
