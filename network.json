@@ -74,6 +74,17 @@
             ],
             "source": "mappedData.R",
             "target": "plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "ZoomMap",
+                    "output": "ZoomMap",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "plot.R",
+            "target": "ZoomMap.R"
         }
     ],
     "nodes": [
@@ -127,6 +138,6 @@
             "name": "ZoomMap.R"
         }
     ],
-    "updated_at": "2018-10-18 21:15:54",
+    "updated_at": "2018-10-18 21:16:11",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
