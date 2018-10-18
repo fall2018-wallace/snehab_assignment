@@ -134,8 +134,11 @@
         },
         {
             "name": "ZoomMap.png"
+        },
+        {
+            "name": "MurderRate.png"
         }
     ],
-    "updated_at": "2018-10-18 21:18:10",
+    "updated_at": "2018-10-18 21:19:56",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
