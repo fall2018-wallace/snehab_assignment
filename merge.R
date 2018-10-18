@@ -1,3 +1,3 @@
 
-mergedData<- merge(functionData,arrests, by.x = "StateName" , by.y = "stateNames" )
+mergedData<- merge(dfStates,arrests, by.x = "StateName" , by.y = "stateNames" )
 mergedData
