@@ -160,8 +160,11 @@
         },
         {
             "name": "Area.png"
+        },
+        {
+            "name": "population.png"
         }
     ],
-    "updated_at": "2018-10-18 21:20:42",
+    "updated_at": "2018-10-18 21:26:47",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
