@@ -121,8 +121,11 @@
             "desc": "",
             "name": "mappedData.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "ZoomMap.png"
         }
     ],
-    "updated_at": "2018-10-18 21:16:44",
+    "updated_at": "2018-10-18 21:17:52",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
