@@ -19,8 +19,12 @@
             "desc": "",
             "name": "census.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "USArrests.R"
         }
     ],
-    "updated_at": "2018-10-18 17:19:37",
+    "updated_at": "2018-10-18 17:20:12",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
