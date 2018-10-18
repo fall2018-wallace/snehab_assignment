@@ -1,8 +1,4 @@
 
-stateName <- state.name
-area <- state.area
-center <- state.center
-df <- data.frame(stateName,area,center) # creation of new data frame
 
 mergedf <- merge(mergedData,df, by.x = "StateName", by.y = "stateName") # merging it with final data frame 
 mergedf
