@@ -1,6 +1,6 @@
 
 library(maps)
 library(ggmap)
-library(ggplot)
+library(ggplot2)
 mappedData <- map_data("state")
 mappedData
