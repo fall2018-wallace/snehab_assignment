@@ -1,6 +1,7 @@
 
 library(ggplot2)
 library(gmap)
+library(maps)
 
 # Step B: Generate a color coded map
 # 3)	Create a color coded map, based on the area of the state 
