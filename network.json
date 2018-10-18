@@ -12,21 +12,22 @@
         {
             "ports": [
                 {
-                    "output": "arrests",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "USArrests.R",
-            "target": "merge.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "dfStates",
                     "type": "r_obj"
                 }
             ],
             "source": "census.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "USArrests.R",
             "target": "merge.R"
         }
     ],
@@ -53,6 +54,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-18 17:23:11",
+    "updated_at": "2018-10-18 17:26:31",
     "url": "https://github.com/fall2018-wallace/snehab_assignment"
 }
