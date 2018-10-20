@@ -1,0 +1,180 @@
+{
+    "collaborators": [
+        "srbinani"
+    ],
+    "created_at": "2018-10-18 17:13:10",
+    "edges": [
+        {
+            "ports": [],
+            "source": "scprc_est_2017_18_pop_res.csv",
+            "target": "census.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "arrests",
+                    "output": "arrests",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "USArrests.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "dfStates",
+                    "output": "dfStates",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "census.R",
+            "target": "merge.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedData",
+                    "output": "mergedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "merge.R",
+            "target": "mergecenter.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "df",
+                    "output": "df",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "areadata.R",
+            "target": "mergecenter.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mergedf",
+                    "output": "mergedf",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "mergecenter.R",
+            "target": "plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "mappedData",
+                    "output": "mappedData",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "mappedData.R",
+            "target": "plot.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ZoomMap",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "ZoomMap.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapc1",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "MurderRate.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapc",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "Area.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "mapc2",
+                    "type": "png"
+                }
+            ],
+            "source": "plot.R",
+            "target": "population.png"
+        }
+    ],
+    "nodes": [
+        {
+            "name": "scprc_est_2017_18_pop_res.csv"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "census.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "USArrests.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "merge.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "mergecenter.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "areadata.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "plot.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "srbinani",
+            "desc": "",
+            "name": "mappedData.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "ZoomMap.png"
+        },
+        {
+            "name": "MurderRate.png"
+        },
+        {
+            "name": "Area.png"
+        },
+        {
+            "name": "population.png"
+        }
+    ],
+    "updated_at": "2018-10-18 21:26:59",
+    "url": "https://github.com/fall2018-wallace/snehab_assignment"
+}
